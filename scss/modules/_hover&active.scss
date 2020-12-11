@@ -1,0 +1,9 @@
+
+
+.hover-shadow-5{
+    &:hover{
+        box-shadow: 5px 5px 5px rgb(68, 68, 68);
+        transform: translate(-5px, -5px);
+        transition: 0.8s;
+    }
+}
