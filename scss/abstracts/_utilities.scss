@@ -1,0 +1,43 @@
+
+
+// 文字大小
+@include mobile{
+    .h1-sm{//40
+        font-size: $font-size-base*2.5;
+    }
+    .h2-sm{//32
+        font-size: $font-size-base*2;
+    }
+    .h3-sm{//28
+        font-size: $font-size-base*1.75;
+    }
+    .h4-sm{//24
+        font-size: $font-size-base*1.5;
+    }
+    .h5-sm{//20
+        font-size: $font-size-base*1.25;
+    }
+    .h6-sm{//16
+        font-size: $font-size-base;
+    }
+}
+
+.font-size-sm{//14
+    font-size: $font-size-sm;
+}
+
+.font-size-xs{//12
+    font-size: $font-size-base*0.75;
+}
+
+//position定位
+.position-md-absolute{
+   position: absolute;
+   @include mobile{
+       position: static;
+   }
+}
+.right-0{
+    right: 0px;
+}
+

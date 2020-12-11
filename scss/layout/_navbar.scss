@@ -1,0 +1,54 @@
+
+.mainNav{
+    z-index: 4;
+}
+
+.nav-logo{
+    width: 128px;
+    height: 38px;
+    font-size: 0px;
+    background: url(/img/d’Perfume.png) no-repeat;
+    text-indent: -200%;
+    overflow: hidden;
+}
+
+.cart{
+    height: 24px;
+    position: relative;
+}
+
+.quantity{
+    width: 14px;
+    height: 14px;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: -7px;
+    top: -4px;
+}
+
+.navbar-toggler{
+    border: none;
+    background: none;
+    padding: 16px 0px 16px 20px;
+    .hamber-icon{
+        display: block;
+        width: 32px;
+        height: 5px;
+        background: $secondary;
+        border-radius: 4px;
+    }
+}
+
+.navlist-sm{
+    @include mobile{
+        display: none;
+    }
+}
+
+.nav-space{
+    padding-top: 54px;
+}
+
+
+

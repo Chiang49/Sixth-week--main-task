@@ -1,0 +1,56 @@
+
+.banner{
+    height: 870px;
+    background: url(/img/index1.jpg) no-repeat center;
+    background-size: cover;
+    .slogan{
+        color: #fff;
+    }
+    @include mobile{
+        height: 480px;
+    }
+}
+
+// section1
+.product-img{
+    width: 100%;
+    height: 555px;
+    @include pad{
+        height: auto;
+        min-height: 550px;
+    }
+    @include mobile{
+        min-width: 100%;
+        height: auto;
+        min-height: 350px;
+    }
+}
+.img-last{
+    height: 1080px;
+    @include pad{
+        height: auto;
+        min-height: 980px;
+    }
+    @include mobile{
+        eight: auto;
+        min-height: 780px;
+    }
+}
+
+.introduction{
+    width: 350px;
+    @include mobile{
+        width: 100%;
+    }
+}
+
+// section3
+.img-height{
+    width: 100%;
+    min-height: 520px;
+    @include mobile{
+        min-width: 100%;
+        height: auto;
+        min-height: 520px;
+    }
+}

@@ -1,0 +1,38 @@
+
+.input-group{
+    width: 100%;
+    position: relative;
+    //索取email
+    &-bar{
+        width: 64.5%;
+        border: 2px solid $primary;
+        border-radius: 4px 0 0 4px;
+    }
+    &-btn{
+        width: 37%;
+        color:#fff;
+        background: $primary;
+        border: 2px solid $primary;
+        border-radius: 0px 4px 4px 0;
+        position: absolute;
+        top:0;
+        right: 0;
+        &:hover{
+            cursor: pointer;
+            background: $dark;
+            border: 2px solid $dark;
+        }
+    }
+
+    //加入購物車
+    &-select{
+        width: 46%;
+    }
+    &-addCar{
+        width: 54.4%;
+    }
+}
+
+.p-3-5{
+    padding: 16.5px;
+}
