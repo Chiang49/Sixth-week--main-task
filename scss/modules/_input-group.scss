@@ -1,10 +1,9 @@
 
 .input-group{
     width: 100%;
-    position: relative;
     //索取email
     &-bar{
-        width: 64.5%;
+        width: 65%;
         border: 2px solid $primary;
         border-radius: 4px 0 0 4px;
     }
@@ -14,9 +13,6 @@
         background: $primary;
         border: 2px solid $primary;
         border-radius: 0px 4px 4px 0;
-        position: absolute;
-        top:0;
-        right: 0;
         &:hover{
             cursor: pointer;
             background: $dark;
@@ -30,6 +26,7 @@
     }
     &-addCar{
         width: 54.4%;
+        text-align: center;
     }
 }
 

@@ -3,3 +3,9 @@
     color: $primary;
     text-decoration: underline;
 }
+.page-hover{
+    &:hover{
+        color: $primary;
+        text-decoration: underline;
+    }
+}

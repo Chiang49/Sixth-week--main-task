@@ -9,9 +9,7 @@
     font-size: $font-size-base*1.75;
     background: none;
     border-radius: 30px;
-    @include mobile{
-        width: 345px;
-    }
+    cursor: pointer;
 }
 
 .btn-white{
@@ -37,6 +35,7 @@
     color: $primary;
     background: none;
     border: 1px solid $primary;
+    cursor: pointer;
     &:hover{
         color: #fff;
         background: $primary;
@@ -48,6 +47,7 @@
     color: #fff;
     background: $primary;
     border: 1px solid $primary;
+    cursor: pointer;
     &:hover{
         color: $primary;
         background: #fff;

@@ -7676,12 +7676,7 @@ a {
   font-size: 1.75rem;
   background: none;
   border-radius: 30px;
-}
-
-@media (max-width: 767px) {
-  .btn-lg {
-    width: 345px;
-  }
+  cursor: pointer;
 }
 
 .btn-white {
@@ -7712,6 +7707,7 @@ a {
   color: #916019;
   background: none;
   border: 1px solid #916019;
+  cursor: pointer;
 }
 
 .btn-bord-primary:hover {
@@ -7725,6 +7721,7 @@ a {
   color: #fff;
   background: #916019;
   border: 1px solid #916019;
+  cursor: pointer;
 }
 
 .btn-bg-primary:hover {
@@ -7753,7 +7750,7 @@ a {
 }
 
 .card-product-img {
-  width: 100%;
+  min-width: 100%;
   height: 255px;
 }
 
@@ -7769,7 +7766,7 @@ a {
   .card-product-img {
     min-width: 100%;
     height: auto;
-    min-height: 165px;
+    min-height: 345px;
   }
 }
 
@@ -7794,11 +7791,10 @@ a {
 
 .input-group {
   width: 100%;
-  position: relative;
 }
 
 .input-group-bar {
-  width: 64.5%;
+  width: 65%;
   border: 2px solid #916019;
   border-radius: 4px 0 0 4px;
 }
@@ -7809,9 +7805,6 @@ a {
   background: #916019;
   border: 2px solid #916019;
   border-radius: 0px 4px 4px 0;
-  position: absolute;
-  top: 0;
-  right: 0;
 }
 
 .input-group-btn:hover {
@@ -7826,6 +7819,7 @@ a {
 
 .input-group-addCar {
   width: 54.4%;
+  text-align: center;
 }
 
 .p-3-5 {
@@ -7840,6 +7834,11 @@ a {
 }
 
 .page-active {
+  color: #916019;
+  text-decoration: underline;
+}
+
+.page-hover:hover {
   color: #916019;
   text-decoration: underline;
 }
@@ -7966,5 +7965,10 @@ a {
     height: auto;
     min-height: 520px;
   }
+}
+
+.login-img {
+  background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/login1.jpg?raw=true) no-repeat center/cover;
+  padding-top: 100%;
 }
 /*# sourceMappingURL=main.css.map */

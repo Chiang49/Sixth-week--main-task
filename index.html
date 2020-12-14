@@ -16,62 +16,58 @@
                 <a class="nav-logo" href="./index.html">D'PERFUME</a>
              </h1>
  
-             <div class="main-nav d-none d-md-block">
-                 <ul class="nav-list d-flex">
-                     <li class="nav-item mr-5">
-                          <a class="nav-product h5 text-secondary d-flex align-items-center" href="./product.html">
-                              <span class="material-icons">
-                                  store
-                              </span>
-                              Product
-                          </a>
-                      </li>
-                      <li class="nav-item mr-5">
-                          <a class="nav-logIn h5 text-secondary d-flex align-items-center" href="./login.html">
-                              <span class="material-icons">
-                                  person
-                              </span>
-                              log in
-                          </a>
-                      </li>
-                      <li class="nav-item mr-5">
-                          <a class="nav-wishlist h5 text-secondary d-flex align-items-center" href="">
-                              <span class="material-icons">
-                                  favorite
-                              </span>
-                              Wishlist
-                          </a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-cart h5 text-secondary d-flex align-items-center" href="">
-                              <span class="material-icons">
-                                  shopping_cart
-                              </span>
-                              <span class="cart-md">Cart</span>
-                              <span class="quantity-mb">(3)</span>
-                          </a>
-                      </li>
-                 </ul> 
-             </div>
- 
-             <div class="navbar-mobile d-block d-md-none">
-                 <div class="d-flex align-items-center">
-                     <a class="cart" href="">
-                         <span class="material-icons text-secondary">
+             <ul class="main-nav d-none d-md-flex">
+                <li class="nav-item mr-5">
+                     <a class="nav-product h5 text-secondary d-flex align-items-center" href="./product.html">
+                         <span class="material-icons">
+                             store
+                         </span>
+                         Product
+                     </a>
+                 </li>
+                 <li class="nav-item mr-5">
+                     <a class="nav-logIn h5 text-secondary d-flex align-items-center" href="./login.html">
+                         <span class="material-icons">
+                             person
+                         </span>
+                         log in
+                     </a>
+                 </li>
+                 <li class="nav-item mr-5">
+                     <a class="nav-wishlist h5 text-secondary d-flex align-items-center" href="">
+                         <span class="material-icons">
+                             favorite
+                         </span>
+                         Wishlist
+                     </a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-cart h5 text-secondary d-flex align-items-center" href="">
+                         <span class="material-icons">
                              shopping_cart
                          </span>
-                         <p class="quantity font-size-xs bg-primary text-center">3</p>
+                         <span class="cart-md">Cart</span>
+                         <span class="quantity-mb">(3)</span>
                      </a>
-     
-                     <button id="nav-btn" class="navbar-toggler">
-                         <div class="navbar-toggler-icon" href="#">
-                             <p class="hamber-icon mb-1"></p>
-                             <p class="hamber-icon mb-1"></p>
-                             <p class="hamber-icon"></p>
-                         </div>
-                     </button>
-                 </div>
-             </div>
+                 </li>
+            </ul> 
+ 
+            <div class="navbar-mobile d-flex d-md-none align-items-center">
+                <a class="cart" href="">
+                    <span class="material-icons text-secondary">
+                        shopping_cart
+                    </span>
+                    <p class="quantity font-size-xs bg-primary text-center">3</p>
+                </a>
+
+                <button id="nav-btn" class="navbar-toggler">
+                    <div class="navbar-toggler-icon" href="#">
+                        <p class="hamber-icon mb-1"></p>
+                        <p class="hamber-icon mb-1"></p>
+                        <p class="hamber-icon"></p>
+                    </div>
+                </button>
+            </div>
         </div>
         <!-- mobile版nav -->
         <div id="nav-sm" class="navlist-sm d-md-none">
@@ -121,9 +117,8 @@
                         <a class="text-light" href="">查看更多</a>
                     </div>
                 </div>
-                <div class="product-img col-md-5 col-lg-6 mb-2 mb-md-0"
-                 style="background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index2.jpg?raw=true) no-repeat center;
-                        background-size: cover;">
+                <div class="col-md-5 col-lg-6 mb-2 mb-md-0">
+                    <img class="product-img" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index2.jpg?raw=true" alt="Gabrielle CHANEL">
                 </div>
             </li>
             <li class="row no-gutters mb-5 mb-md-0 d-flex flex-column-reverse flex-md-row-reverse" data-aos="fade-up"
@@ -135,9 +130,8 @@
                         <a class="text-light" href="">查看更多</a>
                     </div>
                 </div>
-                <div class="product-img col-md-5 col-lg-6 mb-2 mb-md-0"
-                 style="background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index3.png?raw=true) no-repeat center;
-                        background-size: cover;">
+                <div class="col-md-5 col-lg-6 mb-2 mb-md-0">
+                    <img class="product-img" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index3.png?raw=true" alt="Five O’clock Au Gingembre">
                 </div>
             </li>
             <li class="row no-gutters mb-5 mb-md-0 d-flex flex-column-reverse flex-md-row" data-aos="fade-up"
@@ -149,9 +143,8 @@
                         <a class="text-light" href="./product-detail.html">查看更多</a>
                     </div>
                 </div>
-                <div class="product-img col-md-5 col-lg-6 mb-2 mb-md-0"
-                 style="background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index4.jpg?raw=true) no-repeat 17%;
-                        background-size: cover;">
+                <div class="col-md-5 col-lg-6 mb-2 mb-md-0">
+                    <img class="product-img" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index4.jpg?raw=true" alt="CHANEL N°5">
                 </div>
             </li>
             <li class="row no-gutters d-flex flex-column-reverse flex-md-row-reverse" data-aos="fade-up"
@@ -175,9 +168,8 @@
                         <button class="btn-lg btn-block">Plan a free online training</button>
                     </div>
                 </div>
-                <div class="product-img img-last col-md-5 col-lg-6 mb-2"
-                 style="background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index5.jpg?raw=true) no-repeat 75%;
-                        background-size: cover;">
+                <div class="col-md-5 col-lg-6 mb-2">
+                    <img class="product-img img-last" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index5.jpg?raw=true" alt="">
                 </div>
             </li>    
         </ul>
@@ -189,9 +181,8 @@
             <ul class="row d-flex flex-column flex-md-row">
                 <li class="col col-md-4 mb-5 mb-md-0" data-aos="zoom-in" data-aos-duration="2500">
                     <a class="card" href="">
-                        <div class="card-img hover-shadow-5 mb-2"
-                            style="background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index6.jpg?raw=true) no-repeat bottom;
-                            background-size: cover;">
+                        <div class="hover-shadow-5 mb-2">
+                            <img class="card-img" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index6.jpg?raw=true" alt="Poppy & Barley">
                         </div>
                         <h3 class="card-title">Poppy & Barley</h3>
                         <p class="card-subtitle mb-1 mb-md-3">Jo Malone</p>
@@ -202,9 +193,8 @@
                 </li>
                 <li class="col col-md-4 mb-5 mb-md-0" data-aos="zoom-in" data-aos-duration="2500">
                     <a class="card" href="">
-                        <div class="card-img hover-shadow-5 mb-2"
-                            style="background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index7.jpg?raw=true) no-repeat center;
-                            background-size: cover;">
+                        <div class="hover-shadow-5 mb-2">
+                            <img class="card-img" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index7.jpg?raw=true" alt="Body Wash">
                         </div>
                         <h3 class="card-title">Body Wash</h3>
                         <p class="card-subtitle mb-1 mb-md-3">Curology</p>
@@ -215,9 +205,8 @@
                 </li>
                 <li class="col col-md-4" data-aos="zoom-in" data-aos-duration="2500">
                     <a class="card" href="">
-                        <div class="card-img hover-shadow-5 mb-2"
-                            style="background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index8.jpg?raw=true) no-repeat center;
-                            background-size: cover;">
+                        <div class="hover-shadow-5 mb-2">
+                            <img class="card-img" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index8.jpg?raw=true" alt="Apple Cider Vinegar Capsule">
                         </div>
                         <h3 class="card-title">Apple Cider Vinegar Capsule</h3>
                         <p class="card-subtitle mb-1 mb-md-3">Tonik</p>
@@ -237,10 +226,7 @@
             <div class="row flex-column flex-md-row align-items-center" data-aos="fade-up"
             data-aos-duration="2500">
                 <div class="col-md-7 col-lg-8 mb-2 mb-md-0">
-                    <div class="img-height" 
-                        style="background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index9.jpg?raw=true) no-repeat 36%;
-                        background-size: cover;">
-                    </div>
+                    <img class="img-height" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index9.jpg?raw=true" alt="Bottle-Recycling">
                 </div>
                 <div class="col-md-5 col-lg-4">
                     <h3 class="h2 font-weight-bold">Bottle-Recycling</h3>
@@ -257,9 +243,9 @@
         <div class="container">
             <div class="row">
                 <div class="col col-md-7 col-lg-6 col-xl-4">
-                    <h2 class="h2 text-secondary mb-4 mb-md-4">記得<br>訂閱以獲取更多資訊！</h2>
+                    <h2 class="h2 text-secondary font-weight-bold mb-4 mb-md-4">記得<br>訂閱以獲取更多資訊！</h2>
                     <form action="#">
-                        <div class="input-group">
+                        <div class="input-group d-flex">
                             <input class="input-group-bar py-4 pl-3" type="email" name="email" placeholder="Your email address">
                             <button class="input-group-btn py-4" type="sumbit" name="Subscribe" value="Subscribe">Subscribe</button>
                         </div>
