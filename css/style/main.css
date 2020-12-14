@@ -7561,8 +7561,10 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 a {
@@ -7731,22 +7733,20 @@ a {
   transition: 0.8s;
 }
 
-.card-img {
+.card-frame {
   width: 100%;
   height: 540px;
+  overflow: hidden;
 }
 
 @media (max-width: 992px) {
-  .card-img {
-    height: auto;
-    min-height: 350px;
+  .card-frame {
+    height: 350px;
   }
 }
 
-@media (max-width: 767px) {
-  .card-img {
-    min-width: 100%;
-  }
+.card-img {
+  height: 100%;
 }
 
 .card-product-img {
@@ -7756,17 +7756,13 @@ a {
 
 @media (max-width: 992px) {
   .card-product-img {
-    min-width: 100%;
-    height: auto;
-    min-height: 330px;
+    height: 330px;
   }
 }
 
 @media (max-width: 767px) {
   .card-product-img {
-    min-width: 100%;
-    height: auto;
-    min-height: 345px;
+    height: 345px;
   }
 }
 
@@ -7794,13 +7790,13 @@ a {
 }
 
 .input-group-bar {
-  width: 65%;
+  width: 66%;
   border: 2px solid #916019;
   border-radius: 4px 0 0 4px;
 }
 
 .input-group-btn {
-  width: 37%;
+  width: 34%;
   color: #fff;
   background: #916019;
   border: 2px solid #916019;
@@ -7906,42 +7902,49 @@ a {
   }
 }
 
-.product-img {
-  width: 100%;
-  height: 555px;
+.img-frame {
+  padding-bottom: 100%;
+  height: 0;
+  position: relative;
+  overflow: hidden;
 }
 
 @media (max-width: 992px) {
-  .product-img {
-    height: auto;
-    min-height: 550px;
+  .img-frame {
+    height: 450px;
   }
 }
 
 @media (max-width: 767px) {
-  .product-img {
-    min-width: 100%;
-    height: auto;
-    min-height: 350px;
+  .img-frame {
+    height: 0;
   }
 }
 
-.img-last {
+.img-frame-last {
   height: 1080px;
 }
 
 @media (max-width: 992px) {
-  .img-last {
+  .img-frame-last {
     height: auto;
     min-height: 980px;
   }
 }
 
 @media (max-width: 767px) {
-  .img-last {
+  .img-frame-last {
     eight: auto;
     min-height: 780px;
   }
+}
+
+.product-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .introduction {
