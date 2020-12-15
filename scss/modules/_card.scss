@@ -11,15 +11,17 @@
     &-img{
         height: 100%;
     }
+    &-product-frame{
+        padding-bottom: 100%;
+        height: 0;
+        position: relative;
+        overflow: hidden;
+    }
     &-product-img{
-        min-width: 100%;
-        height: 255px;
-        @include pad{
-            height: 330px;
-        }
-        @include mobile{
-            height: 345px;
-        }
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
     &-title{
         font-size: $font-size-base*1.5;

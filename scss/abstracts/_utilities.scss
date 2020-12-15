@@ -40,3 +40,45 @@
 .right-0{
     right: 0px;
 }
+
+//object-position
+.object-position-right{
+    object-position: right;
+}
+.object-position-left{
+    object-position: left;
+}
+.object-position-bottom{
+    object-position: bottom;
+}
+.object-position-top{
+    object-position: top;
+}
+.object-position-center{
+    object-position: center;
+}
+.object-positionY-2-25{
+    object-position: 0px $spacer*-2.25;
+}
+
+@include pad{
+    .object-positionX-md-2-25{
+        object-position: $spacer*-2.25;
+    }
+    .object-positionX-md-17{
+        object-position: $spacer*-17;
+    }
+}
+
+@include mobile{
+    .object-positionX-sm-0{
+        object-position: $spacer*0;
+    }
+    .object-position-sm-right{
+        object-position: right;
+    }
+    .object-position-sm-bottom{
+        object-position: bottom;
+    }
+}
+

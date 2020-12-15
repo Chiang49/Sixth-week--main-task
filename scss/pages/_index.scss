@@ -1,8 +1,7 @@
 
 .banner{
     height: 870px;
-    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index1.jpg?raw=true) no-repeat center;
-    background-size: cover;
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index1.jpg?raw=true) no-repeat center/cover;
     .slogan{
         color: #fff;
     }
@@ -12,7 +11,7 @@
 }
 
 // section1
-.img-frame{
+.img-frame{//方形框用法
     padding-bottom: 100%;
     height: 0;
     position: relative;
@@ -35,7 +34,7 @@
         }
     }
 }
-.product-img{
+.product-img{//方形框用法
     position: absolute;
     width: 100%;
     height: 100%;

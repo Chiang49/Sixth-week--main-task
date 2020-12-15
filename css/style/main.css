@@ -7616,6 +7616,62 @@ a {
   right: 0px;
 }
 
+.object-position-right {
+  -o-object-position: right;
+     object-position: right;
+}
+
+.object-position-left {
+  -o-object-position: left;
+     object-position: left;
+}
+
+.object-position-bottom {
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
+.object-position-top {
+  -o-object-position: top;
+     object-position: top;
+}
+
+.object-position-center {
+  -o-object-position: center;
+     object-position: center;
+}
+
+.object-positionY-2-25 {
+  -o-object-position: 0px -2.25rem;
+     object-position: 0px -2.25rem;
+}
+
+@media (max-width: 992px) {
+  .object-positionX-md-2-25 {
+    -o-object-position: -2.25rem;
+       object-position: -2.25rem;
+  }
+  .object-positionX-md-17 {
+    -o-object-position: -17rem;
+       object-position: -17rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .object-positionX-sm-0 {
+    -o-object-position: 0rem;
+       object-position: 0rem;
+  }
+  .object-position-sm-right {
+    -o-object-position: right;
+       object-position: right;
+  }
+  .object-position-sm-bottom {
+    -o-object-position: bottom;
+       object-position: bottom;
+  }
+}
+
 .mainNav {
   z-index: 4;
 }
@@ -7749,21 +7805,19 @@ a {
   height: 100%;
 }
 
+.card-product-frame {
+  padding-bottom: 100%;
+  height: 0;
+  position: relative;
+  overflow: hidden;
+}
+
 .card-product-img {
-  min-width: 100%;
-  height: 255px;
-}
-
-@media (max-width: 992px) {
-  .card-product-img {
-    height: 330px;
-  }
-}
-
-@media (max-width: 767px) {
-  .card-product-img {
-    height: 345px;
-  }
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .card-title {
@@ -7824,8 +7878,7 @@ a {
 
 .subscribe {
   height: 600px;
-  background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index10.jpg?raw=true) no-repeat center;
-  background-size: cover;
+  background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index10.jpg?raw=true) no-repeat center/cover;
   padding-top: 312px;
 }
 
@@ -7888,8 +7941,7 @@ a {
 
 .banner {
   height: 870px;
-  background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index1.jpg?raw=true) no-repeat center;
-  background-size: cover;
+  background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index1.jpg?raw=true) no-repeat center/cover;
 }
 
 .banner .slogan {
